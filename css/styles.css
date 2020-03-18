@@ -1,0 +1,32 @@
+header{
+    height: 10vh;
+    background: url("../img/line-txt.jpg");
+    margin: -1vh;
+}
+
+#left {
+	display: flex; 
+	align-items: center;
+	justify-content: space-between; 
+	width: 40%; 
+}
+
+.tabs{
+    font-size: small;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+#logo{
+    height: 70px;
+}
+
+.carousel {
+    background: lightgoldenrodyellow;
+  }
+  
+  .carousel .cell {
+    background: yellow;
+    width: 100%;
+  }

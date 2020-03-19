@@ -1,7 +1,9 @@
 header{
     height: 10vh;
     background: url("../img/line-txt.jpg");
+    background-size: cover;
     margin: -1vh;
+    padding: 20px;
 }
 
 #left {
@@ -22,10 +24,23 @@ header{
     height: 70px;
 }
 
+#yellow{
+    background: rgb(253, 255, 165);
+}
+
 #bio{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    text-align: center;
-    margin: 10px 50px;
+    
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+#bio img{
+    height: 40vw;
+    
+    
 }
 
 #portfolio{
@@ -61,4 +76,41 @@ text-align: center;
     
     
 }
+
+@media only screen and (min-width: 0) { 
+    
+    /* Diagnostic Styling. Delete When Done. */
+    body:before {
+         background: yellow;
+         content: "Mobile Size";
+    }
+    
+  }
+
+  @media only screen and (min-width: 26em)  {
+    
+    /* Diagnostic Styling. Delete When Done. */
+    body:before {
+         background: yellow;
+         content: "Tablet Size";
+    }
+  
+  }
+
+  @media screen and (min-width: 72em)  { 
+  
+    /* Diagnostic Styling. Delete When Done. */
+    body:before {
+         background: yellow;
+         content: "Desktop Size";
+    }
+    
+
+    @media screen and (min-width: 90em) { 
+  
+        /* Diagnostic Styling. Delete When Done. */
+        body:before {
+             background: yellow;
+             content: "Wide Desktop Size";
+        }
 

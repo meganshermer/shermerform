@@ -18,4 +18,16 @@ header a{
     height: 70px;
 }
 
-
+#contact-1{
+    display: flex;
+    margin: 10px 50px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#bernie{
+    margin: 10px;
+    width: 50vh;
+}

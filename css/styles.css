@@ -22,11 +22,43 @@ header{
     height: 70px;
 }
 
-.carousel {
-    background: lightgoldenrodyellow;
-  }
-  
-  .carousel .cell {
-    background: yellow;
-    width: 100%;
-  }
+#bio{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+    margin: 10px 50px;
+}
+
+#portfolio{
+font-family: 'Merriweather Sans', sans-serif;
+font-weight: bold;
+text-align: center;
+}
+
+.gallery img{
+    width: 230px;
+    
+    filter: grayscale(100% );
+
+   
+    
+    
+    
+}
+.gallery img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+
+}
+
+
+.gallery{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 10px 50px;
+    
+    
+}
+

@@ -21,3 +21,40 @@ header a{
 body{
     background:rgb(253, 255, 165);
 }
+
+h2{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+#gallery img{
+    height: 25%;
+    width: 25%;
+}
+
+#gallery{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+  
+
+@media only screen and (min-width: 26em)  {
+    
+    /* Diagnostic Styling. Delete When Done. */
+    body:before {
+         background: yellow;
+         content: "Tablet Size";
+    }
+    #gallery{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    #gallery img{
+        height: 50%;
+        width:50%;
+    }
+}

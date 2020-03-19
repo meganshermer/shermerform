@@ -20,6 +20,7 @@ header a{
 
 body{
     background:rgb(253, 255, 165);
+    
 }
 
 h2{
@@ -62,5 +63,15 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+}
+
+footer{
+    background: url("../img/line-txt.jpg");
+    background-size: cover;
+    height: 10vh;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    padding: .25%;
+    text-align: center;
 
 }

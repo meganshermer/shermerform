@@ -32,5 +32,11 @@ form{
     width: 50vh;
 }
 footer{
-    background: rgb(253, 255, 165);
+    background: url("../img/line-txt.jpg");
+    background-size: cover;
+    height: 10vh;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    padding: .25%;
+    text-align: center;
+
 }

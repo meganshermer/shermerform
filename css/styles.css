@@ -76,30 +76,18 @@ text-align: center;
 
 
 footer{
-    background-image: url(../img/line-txt.jpg);
-    background-color: grey;
-    background-blend-mode: screen;
+    background: url("../img/line-txt.jpg");
     background-size: cover;
+    height: 10vh;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    padding: .25%;
+    text-align: center;
+
 }
 
-@media only screen and (min-width: 0) { 
-    
-    /* Diagnostic Styling. Delete When Done. */
-    body:before {
-         background: yellow;
-         content: "Mobile Size";
-    }
-
-
-  }
 
   @media only screen and (min-width: 26em)  {
     
-    /* Diagnostic Styling. Delete When Done. */
-    body:before {
-         background: yellow;
-         content: "Tablet Size";
-    }
     #bio{
         font-size: 100%;
         
@@ -111,12 +99,6 @@ footer{
   }
 
   @media screen and (min-width: 72em)  { 
-  
-    /* Diagnostic Styling. Delete When Done. */
-    body:before {
-         background: yellow;
-         content: "Desktop Size";
-    }
 
     #bio{
         font-size: 180%;
@@ -128,12 +110,4 @@ footer{
 }
     
 
-    @media screen and (min-width: 90em) { 
-  
-        /* Diagnostic Styling. Delete When Done. */
-        body:before {
-             background: yellow;
-             content: "Wide Desktop Size";
-        }
-    }
     

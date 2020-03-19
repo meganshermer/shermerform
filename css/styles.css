@@ -30,9 +30,9 @@ header{
 
 #bio{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    
     display: flex;
     justify-content: center;
+   
    
     
 }
@@ -51,14 +51,11 @@ text-align: center;
 
 .gallery img{
     width: 230px;
-    
     filter: grayscale(100% );
-
-   
-    
-    
     
 }
+
+
 .gallery img:hover{
     filter: grayscale(0%);
     transform: scale(1.1);
@@ -74,7 +71,14 @@ text-align: center;
     justify-content: center;
     margin: 10px 50px;
     
-    
+
+}
+
+footer{
+    background-image: url(../img/line-txt.jpg);
+    background-color: grey;
+    background-blend-mode: screen;
+    background-size: cover;
 }
 
 @media only screen and (min-width: 0) { 
@@ -84,7 +88,8 @@ text-align: center;
          background: yellow;
          content: "Mobile Size";
     }
-    
+
+
   }
 
   @media only screen and (min-width: 26em)  {
@@ -113,7 +118,7 @@ text-align: center;
     }
 
     #bio{
-        font-size: 200%;
+        font-size: 180%;
         
     }
     #bio p{

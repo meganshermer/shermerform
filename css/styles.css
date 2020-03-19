@@ -94,6 +94,13 @@ text-align: center;
          background: yellow;
          content: "Tablet Size";
     }
+    #bio{
+        font-size: 100%;
+        
+    }
+    #bio p{
+        padding-left: 20px;
+    }
   
   }
 
@@ -104,6 +111,15 @@ text-align: center;
          background: yellow;
          content: "Desktop Size";
     }
+
+    #bio{
+        font-size: 200%;
+        
+    }
+    #bio p{
+        padding-left: 20px;
+    }
+}
     
 
     @media screen and (min-width: 90em) { 
@@ -113,4 +129,5 @@ text-align: center;
              background: yellow;
              content: "Wide Desktop Size";
         }
-
+    }
+    

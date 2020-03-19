@@ -1,0 +1,23 @@
+header{
+    height: 10vh;
+    background: url("../img/line-txt.jpg");
+    background-size: cover;
+    margin: -1vh;
+    padding: 20px;
+}
+header a{
+    padding: 10px;
+}
+#left {
+	display: flex; 
+	align-items: center;
+	justify-content: space-between; 
+	width: 40%; 
+}
+#logo{
+    height: 70px;
+}
+
+body{
+    background:rgb(253, 255, 165);
+}
